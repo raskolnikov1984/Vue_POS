@@ -1,15 +1,13 @@
 <template>
-    <v-app>
-        <v-navigation-drawer expand-on-hover rail app>
-            <v-list-item title="Menu" subtitle="Tienda"></v-list-item>
-            <v-divider></v-divider>
-            <v-list>
-                <v-list-item v-for="item in menuItems" :key="item.title" @click="navigate(item.route)">
-                    <v-list-item-title>{{ item.title }}</v-list-item-title>
-                </v-list-item>
-            </v-list>
-        </v-navigation-drawer>
-    </v-app>
+    <v-navigation-drawer expand-on-hover rail app>
+        <v-list-item title="Menu" subtitle="Tienda"></v-list-item>
+        <v-divider></v-divider>
+        <v-list>
+            <v-list-item v-for="item in menuItems" :key="item.title" @click="navigate(item.route)">
+                <v-list-item-title>{{ item.title }}</v-list-item-title>
+            </v-list-item>
+        </v-list>
+    </v-navigation-drawer>
 </template>
 
 <script>

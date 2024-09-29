@@ -1,45 +1,8 @@
-<!-- <template>
-     <v-app>
-     <v-card>
-     <v-tabs
-     v-model="tab"
-     bg-color="primary">
-     <v-tab value="one">Item One</v-tab>
-     <v-tab value="two">Item Two</v-tab>
-     <v-tab value="three">Item Three</v-tab>
-     </v-tabs>
-
-     <v-card-text>
-     <v-tabs-window v-model="tab">
-     <v-tabs-window-item value="one">
-     One
-     </v-tabs-window-item>
-
-     <v-tabs-window-item value="two">
-     Two
-     </v-tabs-window-item>
-
-     <v-tabs-window-item value="three">
-     Three
-     </v-tabs-window-item>
-     </v-tabs-window>
-     </v-card-text>
-     </v-card>
-     </v-app>
-     </template>
-     <script>
-     export default {
-     name: 'PurchaseForm',
-     data: () => ({
-     tab: null,
-     }),
-     }
-     </script> -->
 <template>
   <v-app>
-    <v-app-bar app>
-      <v-toolbar-title>Compra</v-toolbar-title>
-    </v-app-bar>
+      <!-- <v-app-bar app>
+           <v-toolbar-title>Compra</v-toolbar-title>
+           </v-app-bar> -->
     <v-main>
     <v-container>
       <v-form ref="form" v-model="valid">
