@@ -18,7 +18,10 @@
          return {
              menuItems: [
                  { title: 'Inicio', route: '/'},
-                 { title: 'Comprar', route:'/comprar'}],
+                 { title: 'Comprar', route:'/comprar'},
+                 { title: 'Resumen de Compra', route:'/resumen_compra'},
+             ],
+
          };
      },
      methods: {

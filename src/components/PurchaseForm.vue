@@ -1,9 +1,9 @@
 <template>
   <v-app>
-      <!-- <v-app-bar app>
-           <v-toolbar-title>Compra</v-toolbar-title>
-           </v-app-bar> -->
-    <v-main>
+      <v-app-bar app>
+          <v-toolbar-title>Compra</v-toolbar-title>
+      </v-app-bar>
+      <v-main>
     <v-container>
       <v-form ref="form" v-model="valid">
         <v-text-field
